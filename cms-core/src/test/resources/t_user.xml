@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<!-- 基于节点 -->
+	<!-- <t_user> <id></id> <name></name> <nickname></nickname> <username></username> 
+		<password></password> <email></email> </t_user> -->
+	<!-- 基于属性 -->
+	<t_user id="1" name="admin1" nickname="admin1" username="admin1"
+		password="admin1" email="admin1@admin.com" phone="131" telephone="110"
+		status="1" create_date="2013-09-06"/>
+
+	<t_user id="2" name="admin2" nickname="admin2" username="admin2"
+		password="admin1" email="admin2@admin.com" phone="132" telephone="110"
+		status="1" create_date="2013-09-06"/>
+
+	<t_user id="3" name="admin3" nickname="admin3" username="admin3"
+		password="admin1" email="admin3@admin.com" phone="133" telephone="110"
+		status="1" create_date="2013-09-06"/>
+
+	<!-- <t_user id="4" name="admin4" nickname="admin4" username="admin4"
+		password="admin1" email="admin4@admin.com" phone="134" telephone="110"
+		status="1" />
+
+	<t_user id="5" name="admin5" nickname="admin5" username="admin5"
+		password="admin1" email="admin5@admin.com" phone="135" telephone="110"
+		status="1" />
+
+	<t_user id="6" name="admin6" nickname="admin6" username="admin6"
+		password="admin1" email="admin6@admin.com" phone="136" telephone="110"
+		status="1" />
+
+	<t_user id="7" name="admin7" nickname="admin7" username="admin7"
+		password="admin1" email="admin7@admin.com" phone="137" telephone="110"
+		status="1" />
+
+	<t_user id="8" name="admin8" nickname="admin8" username="admin8"
+		password="admin1" email="admin8@admin.com" phone="138" telephone="110"
+		status="1" />
+
+	<t_user id="9" name="admin9" nickname="admin9" username="admin9"
+		password="admin1" email="admin9@admin.com" phone="139" telephone="110"
+		status="1" /> -->
+
+	<t_role id="1" name="管理员" role_type="0" />
+	<t_role id="2" name="审核人员" role_type="1" />
+	<t_role id="3" name="发布人员" role_type="2" />
+
+	<t_group id="1" name="产品部" description="xxx" />
+	<t_group id="2" name="技术部" description="xxxx" />
+	<t_group id="3" name="业务部" description="xxxxx" />
+
+	<t_user_role id="1" user_id="1" role_id="1" />
+	<t_user_role id="2" user_id="2" role_id="2" />
+	<t_user_role id="3" user_id="2" role_id="3" />
+	<t_user_role id="4" user_id="3" role_id="2" />
+
+	<t_user_group id="1" user_id="2" group_id="1" />
+	<t_user_group id="2" user_id="2" group_id="2" />
+	<t_user_group id="3" user_id="2" group_id="3" />
+	<t_user_group id="4" user_id="1" group_id="2" />
+	<t_user_group id="5" user_id="1" group_id="3" />
+	<t_user_group id="6" user_id="3" group_id="3" />
+
+</dataset>
